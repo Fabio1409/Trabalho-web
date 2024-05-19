@@ -1,12 +1,12 @@
-.Menu {
-  display: flex; /* Usando flexbox para layout flexível */
+.Menu{
+  display:flex; /* Usando flexbox para layout flexível */
   background-color: rgb(81, 0, 255); /* Cor de fundo roxa */
   justify-content: center; /* Centraliza o conteúdo horizontalmente */
   text-align: center; /* Centraliza o texto */
   top: 0; /* Posiciona no topo */
   left: 0; /* Alinha à esquerda */
   width: 100%; /* Largura total da tela */
-   box-shadow: 2px rebeccapurple; /* Sombras para o box, valor incorreto */
+  box-shadow: 2px rebeccapurple; /* Sombras para o box, valor incorreto */
   height: 100px; /* Altura do menu */
   align-items: center; /* Centraliza itens verticalmente */
 }
@@ -22,7 +22,7 @@ body {
 
 ul li {
   display: inline; /* Exibe itens em linha */
-  background-color: rgb(255, 089, 72); /* Cor de fundo laranja, valor RGB incorreto */
+  background-color: gold; /* Cor de fundo laranja, valor RGB incorreto */
   margin-top: 0%; /* Margem superior zero */
   list-style-type: none; /* Remove marcadores de lista */
   font-weight: bold; /* Texto em negrito */
@@ -123,7 +123,6 @@ textarea {
   list-style-type: circle; /* Marcadores de lista em círculo */
 }
 .portifolio li {
-  display: flex; /* Usando flexbox para layout flexível */
   background-color: beige; /* Cor de fundo bege */
   color: brown; /* Cor do texto marrom */
 }
