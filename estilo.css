@@ -1,0 +1,147 @@
+.Menu {
+  display: flex; /* Usando flexbox para layout flexível */
+  background-color: rgb(81, 0, 255); /* Cor de fundo roxa */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  text-align: center; /* Centraliza o texto */
+  top: 0; /* Posiciona no topo */
+  left: 0; /* Alinha à esquerda */
+  width: 100%; /* Largura total da tela */
+   box-shadow: 2px rebeccapurple; /* Sombras para o box, valor incorreto */
+  height: 100px; /* Altura do menu */
+  align-items: center; /* Centraliza itens verticalmente */
+}
+body {
+  width: 100%; /* Largura total da tela */
+  margin: 0%; /* Remove margens */
+  padding: 0%; /* Remove padding */
+  font-family: Georgia, "Times New Roman", Times, serif; /* Define a fonte */
+  background-color: beige; /* Cor de fundo bege */
+  color: black; /* Cor do texto preta */
+  text-align: center; /* Centraliza o texto */
+}
+
+ul li {
+  display: inline; /* Exibe itens em linha */
+  background-color: rgb(255, 089, 72); /* Cor de fundo laranja, valor RGB incorreto */
+  margin-top: 0%; /* Margem superior zero */
+  list-style-type: none; /* Remove marcadores de lista */
+  font-weight: bold; /* Texto em negrito */
+  color-scheme: gray; /* Propriedade incorreta, deveria ser color */
+  justify-content: space-around; /* Centraliza itens com espaço ao redor */
+  margin-left: 100px; /* Margem à esquerda */
+  margin-right: 80 px; /* Margem à direita com espaço incorreto */
+  width: 100%; /* Largura total */
+  font-size: 20px; /* Tamanho da fonte */
+}
+ul li :hover {
+  background-color: aqua; /* Cor de fundo ao passar o mouse */
+  text-decoration: underline; /* Sublinhado ao passar o mouse */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  font-size: 30px; /* Aumenta o tamanho da fonte ao passar o mouse */
+  transition: all 2s; /* Transição suave de 2 segundos */
+}
+.sobre-mim {
+  width: 500px; /* Largura do elemento */
+  height: 340px; /* Altura do elemento */
+  border: 3px solid rgb(102, 0, 255); /* Borda roxa */
+  box-shadow: 12px 12px 12px 12px rgb(36, 0, 128); /* Sombra com 12px de desvio e cor */
+  border-radius: 5%; /* Bordas arredondadas */
+}
+.nome h2 {
+  display: flexbox; /* Valor incorreto, deveria ser flex */
+  justify-content: space-around; /* Distribui espaço ao redor dos itens */
+  color: blue; /* Cor do texto azul */
+  padding: 100px; /* Espaçamento interno de 100px */
+  margin: 100px; /* Espaçamento externo de 100px */
+  text-align: center; /* Centraliza o texto */
+}
+.nome :hover {
+  font-style: oblique; /* Estilo de fonte oblíqua ao passar o mouse */
+  text-transform: capitalize; /* Transforma texto em capitalizado ao passar o mouse */
+}
+.paragrafo1 {
+  color: blue; /* Cor do texto azul */
+  font-style: italic; /* Estilo da fonte itálico */
+  text-align: center; /* Centraliza o texto */
+  font-size: 20px; /* Tamanho da fonte de 20px */
+}
+.paragrafo2 {
+  color: blue; /* Cor do texto azul */
+  font-family: Georgia, "Times New Roman", Times, serif; /* Fonte */
+  font-size: 20px; /* Tamanho da fonte de 20px */
+}
+.botao-inicio {
+  display: flex; /* Usando flexbox para layout flexível */
+  justify-content: end; /* Alinha os itens ao final */
+}
+.botao-inicio button {
+  background-color: aqua; /* Cor de fundo aqua */
+  border-radius: 5px; /* Bordas arredondadas */
+  border: 3px solid black; /* Borda preta de 3px */
+}
+button:hover {
+  background-color: #a8e34a; /* Cor de fundo ao passar o mouse */
+  font-family: mono; /* Fonte monoespaçada */
+  color: black; /* Cor do texto preta */
+}
+.botaoEnviar {
+  background-color: aqua; /* Cor de fundo aqua */
+  border-radius: 5px; /* Bordas arredondadas */
+  border: 3px solid black; /* Borda preta de 3px */
+}
+.botaoEnviar :hover {
+  background-color: #a8e34a; /* Cor de fundo ao passar o mouse */
+  font-family: mono; /* Fonte monoespaçada */
+  color: black; /* Cor do texto preta */
+}
+label {
+  display: flex; /* Usando flexbox para layout flexível */
+  font-size: 20px; /* Tamanho da fonte de 20px */
+  color: firebrick; /* Cor do texto vermelho fogo */
+  justify-content: space-around; /* Distribui espaço ao redor dos itens */
+}
+input {
+  width: 20%; /* Largura de 20% */
+  height: 30px; /* Altura de 30px */
+  font-size: 100%; /* Tamanho da fonte relativo a 100% */
+  font: italic; /* Estilo da fonte itálico */
+}
+textarea {
+  color: blueviolet; /* Cor do texto violeta */
+  font-size: 100%; /* Tamanho da fonte relativo a 100% */
+  border: 2px solid green; /* Borda verde de 2px */
+  font-family: mono; /* Fonte monoespaçada */
+  width: 20%; /* Largura de 20% */
+}
+.em-construção {
+  display: flex; /* Usando flexbox para layout flexível */
+  width: 100%; /* Largura total */
+  height: 430px; /* Altura de 430px */
+}
+.portifolio {
+  font: italic; /* Estilo da fonte itálico */
+  list-style-type: circle; /* Marcadores de lista em círculo */
+}
+.portifolio li {
+  display: flex; /* Usando flexbox para layout flexível */
+  background-color: beige; /* Cor de fundo bege */
+  color: brown; /* Cor do texto marrom */
+}
+
+footer {
+  position: fixed; /* Fixa o footer na parte inferior */
+  bottom: 0; /* Alinha na parte inferior */
+  width: 100%; /* Largura total */
+  background-color: #257a77; /* Cor de fundo do footer */
+  color: #fff; /* Cor do texto do footer */
+  text-align: center; /* Alinhamento do texto no centro */
+  padding: 1%; /* Espaçamento interno do footer */
+  margin-bottom: 0%; /* Margem inferior zero */
+  height: 20px; /* Altura do footer */
+}
+.desenvolvido {
+  display: flex; /* Usando flexbox para layout flexível */
+  justify-content: end; /* Alinha os itens ao final */
+  margin-right: 20px; /* Margem à direita de 20px */
+  text-align: center; /* Centraliza o texto */
+}
